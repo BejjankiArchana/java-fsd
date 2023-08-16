@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advertise Your Business</title>
+</head>
+<body>
+    <h1>Advertise Your Business</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="companyName" required><br><br>
+
+        <label for="personName">Contact Person:</label>
+        <input type="text" id="personName" name="personName" required><br><br>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+
+        <label for="companyAddress">Company Address:</label>
+        <textarea id="companyAddress" name="companyAddress" required></textarea><br><br>
+
+        <label for="advertisementType">Type of Advertisement:</label>
+        <select id="advertisementType" name="advertisementType">
+            <option value="online">Online</option>
+            <option value="offline">Offline</option>
+        </select><br><br>
+
+        <label for="areaOfAdvertisement">Area of Advertisement:</label>
+        <input type="text" id="areaOfAdvertisement" name="areaOfAdvertisement"><br><br>
+
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required><br><br>
+
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required><br><br>
+
+        <label for="totalCost">Total Cost:</label>
+        <input type="number" id="totalCost" name="totalCost" step="0.01" required><br><br>
+
+        <label for="advertisementDescription">Advertisement Description:</label>
+        <textarea id="advertisementDescription" name="advertisementDescription" required></textarea><br><br>
+
+        <label for="uploadDocument">Upload Document:</label>
+        <input type="file" id="uploadDocument" name="uploadDocument"><br><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
